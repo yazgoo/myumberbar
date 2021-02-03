@@ -8,11 +8,11 @@ async fn main() {
     /* width (in characters) of the bar */
     let terminal_width = 222;
     /* color palette we will use for each bar items */
-    let palette = Palette::red_pink_turquoise_spring();
+    let palette = Palette::black_grey_turquoise_dark();
     /* hash which will contain all widgets */
     let mut widgets : HashMap<WidgetPosition, Vec<Widget>> = HashMap::new();
     /* widgets which will be aligned on the left (from left to right), built with a given theme */
-    let lefts = ThemedWidgets::powerline(
+    let lefts = ThemedWidgets::tab(
                 WidgetPosition::Left, vec![
                 (Sources::battery(), Logos::battery()),
                 (Sources::cpu(), Logos::cpu()),
@@ -20,7 +20,7 @@ async fn main() {
                 (Sources::window(terminal_width / 3), Logos::window()),
                 ], &palette);
     /* widgets which will be aligned on the right (from right to left), built with a given theme */
-    let rights = ThemedWidgets::powerline(
+    let rights = ThemedWidgets::tab(
                     WidgetPosition::Right, vec![
                     (Sources::date(), Logos::date()),
                     (Sources::memory(), Logos::memory()),
