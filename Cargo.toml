@@ -1,0 +1,15 @@
+[package]
+name = "myumberbar"
+version = "0.0.1"
+authors = ["yazgoo <yazgoo@gmail.com>"]
+edition = "2018"
+license = "MIT"
+description = "instance of minimalist status bar"
+readme = "README.md"
+homepage = "https://github.com/yazgoo/myumberbar"
+repository = "https://github.com/yazgoo/myumberbar"
+keywords = ["bar", "x11", "terminal"]
+categories = ["gui"]
+[dependencies]
+umberbar = "0.7.1"
+tokio = { version = "1", features = ["full"] }
