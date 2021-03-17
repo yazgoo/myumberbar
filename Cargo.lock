@@ -444,9 +444,9 @@ dependencies = [
 
 [[package]]
 name = "umberbar"
-version = "0.7.3"
+version = "0.7.6"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "265aa6761f81172aae1593953a16586037b6a60aef1e125749b4073dc6db3011"
+checksum = "b489709c0f8beda9ae1a4a44ce18a4cdfb4ee22b1f2a4a302052d99613be5c24"
 dependencies = [
  "regex",
  "systemstat",

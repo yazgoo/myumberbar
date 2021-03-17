@@ -11,5 +11,5 @@ repository = "https://github.com/yazgoo/myumberbar"
 keywords = ["bar", "x11", "terminal"]
 categories = ["gui"]
 [dependencies]
-umberbar = "0.7.4"
+umberbar = "0.7.5"
 tokio = { version = "1", features = ["full"] }
